@@ -11,11 +11,13 @@
     "host": "vite --host"
   },
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
     "@reduxjs/toolkit": "^2.5.1",
     "@tailwindcss/vite": "^4.0.5",
     "@tinymce/tinymce-react": "^5.1.1",
     "appwrite": "^17.0.0",
     "browser-image-compression": "^2.0.2",
+    "framer-motion": "^12.4.10",
     "html-react-parser": "^5.2.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
