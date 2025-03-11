@@ -13,13 +13,14 @@ import Allposts from "./Pages/Allposts";
 import Signup from "./Pages/Signup";
 import Login from "./Pages/Login";
 import Post from "./Pages/Post"
+import MyPosts from "./Pages/Myposts";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
       {
-        path: "./",
+        path: "/",
         element: <Home />,
       },
       {
@@ -69,12 +70,16 @@ const router = createBrowserRouter([
         path: "/post/:slug",
         element: <Post />,
       },
+      {
+        path: "/my-posts",
+        element: <MyPosts />,  
+      },      
     ],
   },
 ]);
 
 createRoot(document.getElementById("root")).render(
-  <React.StrictMode>``
+  <React.StrictMode>
     <Provider store={store}>
       <RouterProvider router={router}>
         <App />
