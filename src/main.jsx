@@ -13,7 +13,7 @@ import Allposts from "./Pages/Allposts";
 import Signup from "./Pages/Signup";
 import Login from "./Pages/Login";
 import Post from "./Pages/Post"
-import MyPosts from "./Pages/Myposts";
+import MyPosts from "./Pages/MyPosts";
 const router = createBrowserRouter([
   {
     path: "/",
