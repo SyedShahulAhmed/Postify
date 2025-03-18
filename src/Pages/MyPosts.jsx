@@ -5,6 +5,7 @@ import DbService from "../appwrite/configuration";
 import { Query } from "appwrite";
 import { Container } from "../Components";
 import { Link } from "react-router-dom";
+import nopost from '../assets/homepage/nopost.png'
 
 const MyPosts = () => {
   const [posts, setPosts] = useState([]);
@@ -68,12 +69,11 @@ const MyPosts = () => {
       {posts.length === 0 ? (
         <div className="flex flex-col items-center justify-center text-center">
           <img
-            src="https://cdn.pixabay.com/photo/2016/03/31/19/56/blog-1293676_1280.png"
-            alt="No Posts"
-            className="w-64 h-64 mb-4 opacity-50"
+            src={nopost}
+            className="w-64 h-64 mb-4 opacity-100"
           />
           <p className="text-gray-400 text-lg">You haven't created any posts yet.</p>
-          <Link to="/create-post" className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg">
+          <Link to="/create-post" className="mt-4 px-4 py-2 bg-orange-500 text-white rounded-lg font-semibold">
             Create Your First Post
           </Link>
         </div>
