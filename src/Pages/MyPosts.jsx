@@ -73,7 +73,7 @@ const MyPosts = () => {
             className="w-64 h-64 mb-4 opacity-100"
           />
           <p className="text-gray-400 text-lg">You haven't created any posts yet.</p>
-          <Link to="/create-post" className="mt-4 px-4 py-2 bg-orange-500 text-white rounded-lg font-semibold">
+          <Link to="/add-post" className="mt-4 px-4 py-2 bg-orange-500 text-white rounded-lg font-semibold">
             Create Your First Post
           </Link>
         </div>
