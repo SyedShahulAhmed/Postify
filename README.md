@@ -3,6 +3,15 @@
 A **lightweight social media platform** built with **React, Tailwind CSS, and Appwrite**, allowing users to **create, manage, and view posts** effortlessly.  
 
 🔗 **[Live Demo](https://postify-beta-ashen.vercel.app/)**
+
+
+
+## **🔑 Sample User Credentials**  
+For quick testing, use the following demo account:  
+
+✉️ **Email:** one@gmail.com  
+🔒 **Password:** 12345678  
+
 ---
 
 ## **🚀 Features**  
@@ -48,4 +57,5 @@ npm run dev
 ---
 
 ## **🤝 Contribute**  
-Fork, improve, and submit a PR! 🚀  
+Fork, improve, and submit a PR! 🚀
+
