@@ -2,6 +2,7 @@
 
 A **lightweight social media platform** built with **React, Tailwind CSS, and Appwrite**, allowing users to **create, manage, and view posts** effortlessly.  
 
+🔗 **[Live Demo](https://postify-beta-ashen.vercel.app/)**
 ---
 
 ## **🚀 Features**  
@@ -21,7 +22,7 @@ A **lightweight social media platform** built with **React, Tailwind CSS, and Ap
 
 ## **📥 Installation**  
 ```bash
-git clone https://github.com/SyedShahulAhmed/Postify.git
+git clone https://github.com/yourusername/postify.git  
 cd postify  
 npm install  
 ```
@@ -48,4 +49,3 @@ npm run dev
 
 ## **🤝 Contribute**  
 Fork, improve, and submit a PR! 🚀  
-
